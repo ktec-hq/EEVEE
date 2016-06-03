@@ -35,12 +35,13 @@ LIBS:mechanical
 LIBS:mx1a-simple
 LIBS:usb_ports
 LIBS:ws2812b
+LIBS:mos_p
 LIBS:keyboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -2046,7 +2047,6 @@ Connection ~ 11950 6250
 Wire Wire Line
 	3450 8150 3400 8150
 Connection ~ 3450 8150
-Connection ~ 2900 7650
 Wire Wire Line
 	2950 7650 2950 7900
 Wire Wire Line
@@ -2382,4 +2382,180 @@ Connection ~ 9600 8150
 Connection ~ 6800 7650
 Connection ~ 4550 7650
 Connection ~ 12800 4900
+Text Notes 1850 2350 0    79   ~ 0
+Row1
+Text Notes 1850 3750 0    79   ~ 0
+Row2
+Text Notes 1850 5150 0    79   ~ 0
+Row3
+Text Notes 1900 6600 0    79   ~ 0
+Row4
+Text Notes 2000 7950 0    79   ~ 0
+Row5
+Text Notes 2900 1800 0    79   ~ 0
+Col1
+Text Notes 3650 1800 0    79   ~ 0
+Col2\n
+Text Notes 4400 1800 0    79   ~ 0
+Col3\n
+Text Notes 5150 1800 0    79   ~ 0
+Col4
+Text Notes 5900 1800 0    79   ~ 0
+Col5
+Text Notes 6650 1800 0    79   ~ 0
+Col6
+Text Notes 7450 1800 0    79   ~ 0
+Col7
+Text Notes 8150 1800 0    79   ~ 0
+Col8
+Text Notes 8900 1800 0    79   ~ 0
+Col9
+Text Notes 9650 1800 0    79   ~ 0
+Col10
+Text Notes 10400 1800 0    79   ~ 0
+Col11
+Text Notes 11150 1800 0    79   ~ 0
+Col12
+Text Notes 11900 1800 0    79   ~ 0
+Col13
+Text Notes 12650 1800 0    79   ~ 0
+Col14
+$Sheet
+S 14500 4350 700  2100
+U 57569FE9
+F0 "LedMatrix" 79
+F1 "LedMatrix.sch" 79
+F2 "Caps" B L 14500 4900 60 
+F3 "Backlight" B L 14500 5200 60 
+$EndSheet
+Text Notes 3100 3050 0    79   ~ 0
+ESC
+Text Notes 3950 3050 0    79   ~ 0
+1\n
+Text Notes 4650 3050 0    79   ~ 0
+2\n
+Text Notes 5400 3050 0    79   ~ 0
+3
+Text Notes 6150 3050 0    79   ~ 0
+4
+Text Notes 6850 3050 0    79   ~ 0
+5
+Text Notes 7650 3050 0    79   ~ 0
+6
+Text Notes 8350 3050 0    79   ~ 0
+7
+Text Notes 9150 3050 0    79   ~ 0
+8\n
+Text Notes 9850 3050 0    79   ~ 0
+9
+Text Notes 10650 3050 0    79   ~ 0
+0
+Text Notes 11400 3050 0    79   ~ 0
+-
+Text Notes 12050 3050 0    79   ~ 0
+=
+Text Notes 12750 3050 0    79   ~ 0
+Backspace
+Text Notes 3050 4500 0    79   ~ 0
+Tab
+Text Notes 3900 4500 0    79   ~ 0
+Q
+Text Notes 4600 4500 0    79   ~ 0
+W
+Text Notes 5300 4500 0    79   ~ 0
+E
+Text Notes 6050 4500 0    79   ~ 0
+R
+Text Notes 6850 4500 0    79   ~ 0
+T
+Text Notes 7650 4500 0    79   ~ 0
+Y
+Text Notes 8350 4500 0    79   ~ 0
+U
+Text Notes 9100 4500 0    79   ~ 0
+I
+Text Notes 9800 4500 0    79   ~ 0
+O
+Text Notes 10650 4500 0    79   ~ 0
+P
+Text Notes 11350 4500 0    79   ~ 0
+[
+Text Notes 12200 4500 0    79   ~ 0
+]
+Text Notes 12950 4500 0    79   ~ 0
+\
+Text Notes 3050 5900 0    79   ~ 0
+Caps
+Text Notes 3900 5900 0    79   ~ 0
+A
+Text Notes 4650 5900 0    79   ~ 0
+S
+Text Notes 5400 5900 0    79   ~ 0
+D
+Text Notes 6150 5900 0    79   ~ 0
+F
+Text Notes 6900 5900 0    79   ~ 0
+G
+Text Notes 7650 5900 0    79   ~ 0
+H
+Text Notes 8400 5900 0    79   ~ 0
+J
+Text Notes 9100 5900 0    79   ~ 0
+K
+Text Notes 9850 5900 0    79   ~ 0
+L
+Text Notes 10650 5900 0    79   ~ 0
+;
+Text Notes 11450 5900 0    79   ~ 0
+'
+Text Notes 12050 5900 0    79   ~ 0
+ISO #
+Text Notes 12750 6150 0    79   ~ 0
+Enter
+Text Notes 3000 7400 0    79   ~ 0
+LShift\n
+Text Notes 4550 7300 0    79   ~ 0
+Z
+Text Notes 5350 7300 0    79   ~ 0
+X
+Text Notes 6850 7300 0    79   ~ 0
+V
+Text Notes 7650 7300 0    79   ~ 0
+B
+Text Notes 8450 7300 0    79   ~ 0
+N
+Text Notes 9100 7300 0    79   ~ 0
+M
+Text Notes 9900 7200 0    79   ~ 0
+,
+Text Notes 10550 7200 0    79   ~ 0
+.
+Text Notes 11400 7150 0    79   ~ 0
+/
+Text Notes 6100 7300 0    79   ~ 0
+C
+Text Notes 3800 7300 0    79   ~ 0
+ISO \\n
+Text Notes 3000 8800 0    79   ~ 0
+Mod1\n
+Text Notes 3750 8900 0    79   ~ 0
+Mod2\n
+Text Notes 4550 8750 0    79   ~ 0
+Mod3
+Text Notes 6800 8950 0    79   ~ 0
+Space
+Text Notes 9850 9700 0    79   ~ 0
+Extra Key After \nBackspace
+Wire Notes Line
+	9750 8450 9750 9800
+Wire Notes Line
+	9750 9800 10750 9800
+Text Notes 10550 8800 0    79   ~ 0
+Mod4
+Text Notes 11300 9000 0    79   ~ 0
+Mod5
+Text Notes 12050 8950 0    79   ~ 0
+Mod6
+Text Notes 12750 8950 0    79   ~ 0
+Mod7
 $EndSCHEMATC

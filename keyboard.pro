@@ -1,4 +1,4 @@
-update=6/2/2016 9:40:00 PM
+update=6/3/2016 5:27:03 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,3 +68,4 @@ LibName36=lib/mx1a-simple
 LibName37=lib/power
 LibName38=lib/usb_ports
 LibName39=lib/ws2812b
+LibName40=lib/mos_p
