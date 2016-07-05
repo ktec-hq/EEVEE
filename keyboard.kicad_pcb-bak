@@ -8,7 +8,7 @@
     (drawings 838)
     (tracks 0)
     (zones 0)
-    (modules 321)
+    (modules 322)
     (nets 155)
   )
 
@@ -9525,6 +9525,28 @@
     (fp_line (start -3.429 10.668) (end 3.429 10.668) (layer F.SilkS) (width 0.381))
     (pad 1 thru_hole circle (at 0 -6.985 180) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask F.SilkS))
     (pad 2 thru_hole circle (at 0 8.255 180) (size 3.9802 3.9802) (drill 3.9802) (layers *.Cu *.Mask F.SilkS))
+    (model cherry_mx1.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module mx1a:MXST (layer Front) (tedit 52515940) (tstamp 577B354D)
+    (at 384.048 152.654)
+    (path switch_mx3)
+    (fp_text reference MXST (at 2.54 -6.35 90) (layer F.SilkS) hide
+      (effects (font (size 0.5 0.5) (thickness 0.1)))
+    )
+    (fp_text value VAL** (at -2.54 8.89 90) (layer F.SilkS)
+      (effects (font (size 0.5 0.5) (thickness 0.1)))
+    )
+    (fp_line (start 3.429 10.668) (end 3.429 -8.001) (layer F.SilkS) (width 0.381))
+    (fp_line (start 3.429 -8.001) (end -3.429 -8.001) (layer F.SilkS) (width 0.381))
+    (fp_line (start -3.429 -8.001) (end -3.429 10.668) (layer F.SilkS) (width 0.381))
+    (fp_line (start -3.429 10.668) (end 3.429 10.668) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole circle (at 0 -6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask F.SilkS))
+    (pad 2 thru_hole circle (at 0 8.255) (size 3.9802 3.9802) (drill 3.9802) (layers *.Cu *.Mask F.SilkS))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
