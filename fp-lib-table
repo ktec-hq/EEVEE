@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name mx_alps)(type KiCad)(uri "$(KIPRJMOD)/mx_alps.pretty")(options "")(descr ""))
+  (lib (name mx1a-led)(type KiCad)(uri "$(KIPRJMOD)/mx1a-led.pretty")(options "")(descr ""))
+  (lib (name mx1a)(type KiCad)(uri "$(KIPRJMOD)/mx1a.pretty")(options "")(descr ""))
+)
